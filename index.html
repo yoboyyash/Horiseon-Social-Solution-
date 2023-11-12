@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css">
+    <!--Adding concise title to show on top of web browsers tab-->
+    <title>Horiseon</title>
+</head>
+
+<body>
+    <!--Replacing <div> for semantic HTML element <section>-->
+    <section class="header">
+        <h1>Horiseon</h1> 
+        <!--I think the following portion belongs in <nav> since these would be navigational links, appropriate changes were made in sylesheet to reflect on website-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#search-engine-optimization">Search Engine Optimization</a>
+                </li>
+                <li>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
+                </li>
+                <li>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <!--Replacing <div> for semantic HTML element <section>-->
+    <section class="hero"></section>
+    <section class="content">
+        <div class="search-engine-optimization">
+            <!--Adding attribute Alt="discription" to images for accessiblity-->
+            <img src="./02-Challenge/Develop/assets/images/search-engine-optimization.jpg" Alt="Pictured, notebook alongside a laptop, coffee and writing utensils" class="float-left"/> 
+            <h2>Search Engine Optimization</h2>
+            <p>
+                The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
+            </p>
+        </div>
+        <div id="online-reputation-management" class="online-reputation-management">
+            <img src="./02-Challenge/Develop/assets/images/online-reputation-management.jpg" Alt="Pictured, user managing reputational graphs via laptop" class="float-right" />
+            <h2>Online Reputation Management</h2>
+            <p>
+                The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
+            </p>
+        </div>
+        <div id="social-media-marketing" class="social-media-marketing">
+            <img src="./02-Challenge/Develop/assets/images/social-media-marketing.jpg" Alt="Group of six working together" class="float-left" />
+            <h2>Social Media Marketing</h2>
+            <p>
+                Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
+            </p>
+        </div>
+    </section>
+    <!--Replacing <div> for semantic HTML element <aside>-->
+    <!--I think the following portion should be structured independently in element <aside> to meet acceptance criteria of follwoing logical structure independent of styling and positioning-->
+    <aside class="benefits">
+        <div class="benefit-lead">
+            <!--Adding attribute Alt="discription" to images for accessiblity-->
+            <h3>Lead Generation</h3>
+            <img src="./02-Challenge/Develop/assets/images/lead-generation.png" Alt="Pictured; gear, funnel and trickling down dollar sign" />
+            <p>
+                Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
+            </p>
+        </div>
+        <div class="benefit-brand">
+            <h3>Brand Awareness</h3>
+            <img src="./02-Challenge/Develop/assets/images/brand-awareness.png" Alt=" Pictured, man figure with a light bulb head "/>
+            <p>
+                Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
+            </p>
+        </div>
+        <div class="benefit-cost">
+            <h3>Cost Management</h3>
+            <img src="./02-Challenge/Develop/assets/images/cost-management.png" Alt="Pictured, gear with multiple dollar signs in front of it" />
+            <p>
+                As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
+            </p>
+        </div>
+    </aside>
+</body>
+<!--Seprating <footer> element from <body> and adding accessbilty credit to this starter code designed by Horiseon-->
+<footer>
+    <section class="footer">
+        <h2>Disigned with ❤️️ by Horiseon</h2>
+        <h4>Accessibility Made Simple by Yash Baviskar</h4>
+        <p>
+        &copy; 2023 Horiseon Social Solution Services, Inc.
+        </p>
+    </section>    
+</footer>
+
+</html>
