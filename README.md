@@ -3,7 +3,7 @@
 ## Horiseon Social Website and Deployment via Gitpages.
 This company has a website ready with a starter code that needs refinement to code so that it can be navigated better in the future. 
 
- ![Alt text](/02-Challenge/Develop/assets/images/cost-management.png)
+ ![Alt text](./02-Challenge/Develop/assets/images/digital-marketing-meeting.jpg)
 
 This project is helping me build a webapp so that I know how to go about creating not just a fully interactive webpage with stylesheet and script but also add functions that I find suitable to solve acceptance criteria. I understand in the future of web developement I will be required to meet everything asked according to the client anyone I work for. This assignment really helped me navigate on my own how to research and apply code to meet requirements whilst keeping the visual design intergrity of the original code.
 
